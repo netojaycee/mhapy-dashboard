@@ -1,0 +1,38 @@
+{
+  "name": "mhapy Therapist Dashboard",
+  "short_name": "mhapy",
+  "description": "Professional therapist dashboard for managing clients, sessions, and practice analytics",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#441890",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["productivity", "medical"],
+  "screenshots": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ]
+}
