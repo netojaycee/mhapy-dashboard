@@ -115,7 +115,7 @@ export function TherapistScheduleCard({
       </div>
 
       {/* List of Therapists */}
-      <div className="space-y-4">
+      <div className="space-y-2">
         <p className="text-sm font-medium text-muted-foreground">
           List of Therapist
         </p>

@@ -84,16 +84,16 @@ export function ClientListCard({
       </div>
 
       {/* Items List */}
-      <div className="space-y-4">
+      <div className="space-y-2">
         {items.length > 0 ? (
           items.map((item) => (
             <div
               key={item.id}
-              className="flex items-center justify-between py-3 border-b border-border last:border-b-0"
+              className="flex items-center justify-between py-2 border-b border-border last:border-b-0"
             >
               {/* Left: Avatar and Info */}
               <div className="flex items-center gap-3 flex-1 min-w-0">
-                <Avatar className="h-10 w-10 flex-shrink-0">
+                <Avatar className="h-10 w-10 shrink-0">
                   <AvatarImage src={item.avatar} alt={item.name} />
                   <AvatarFallback className="bg-purple-200 text-purple-700">
                     {getInitials(item.name)}
@@ -109,7 +109,7 @@ export function ClientListCard({
               </div>
 
               {/* Right: Status/Time/Badge */}
-              <div className="flex items-center gap-4 flex-shrink-0">
+              <div className="flex items-center gap-4 shrink-0">
                 {showTime && item.time && (
                   <div className="text-right">
                     <p className="text-xs text-muted-foreground">Today</p>

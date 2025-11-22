@@ -52,7 +52,7 @@ export default function PortalTab() {
           title="Therapist's schedule"
           icon="mdi:calendar-outline"
           stats={therapistSchedule.stats}
-          items={therapistSchedule.items}
+          items={therapistSchedule.items.slice(0,3)}
         />
 
         <ClientListCard

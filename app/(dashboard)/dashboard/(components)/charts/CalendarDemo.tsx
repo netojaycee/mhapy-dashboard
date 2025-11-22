@@ -11,7 +11,7 @@ return (
       mode="single"
       selected={date}
       onSelect={setDate}
-      className="rounded border shadow-none"
+      className="rounded border shadow-none "
       captionLayout="dropdown"
     />
   )

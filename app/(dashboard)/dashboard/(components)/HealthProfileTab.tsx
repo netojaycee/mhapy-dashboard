@@ -5,6 +5,9 @@ import { CalendarDemo } from "./charts/CalendarDemo";
 import { ClientListCard } from "@/components/dashboard/client-list-card";
 import dashboardData from "@/lib/dummy-data";
 import { TherapistScheduleCard } from "@/components/dashboard/therapist-schedule-card";
+import { MoodReportChart } from "./charts/MoodReportChart";
+import { SubstanceUseChart } from "./charts/SubstanceUseChart";
+import { SleepQualityChart } from "./charts/SleepQualityChart";
 
 export default function HealthProfileTab() {
   const { prospectiveClients, appointments, therapistSchedule } = dashboardData;
@@ -39,12 +42,11 @@ export default function HealthProfileTab() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-2">
         <ClientOverviewChart />
-     <div className="bg-green-500 h-full w-full">chart</div>
+        <MoodReportChart />{" "}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-2">
-     <div className="bg-blue-500 h-20 w-full">chart</div>
-    <div className="bg-red-500 h-20 w-full">chart</div>
-
+        <SubstanceUseChart />
+        <SleepQualityChart />
       </div>
     </div>
   );

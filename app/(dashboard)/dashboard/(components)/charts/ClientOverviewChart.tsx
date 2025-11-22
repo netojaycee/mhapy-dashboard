@@ -69,11 +69,11 @@ export function ClientOverviewChart() {
               <span className="text-muted-foreground">Total clients</span>
             </div>
             <div className="flex items-center gap-2 text-sm">
-              <span className="h-3 w-3 rounded-full bg-chart-2"></span>
+              <span className="h-3 w-3 rounded-full bg-[#8467B6]"></span>
               <span className="text-muted-foreground">Active clients</span>
             </div>
             <div className="flex items-center gap-2 text-sm">
-              <span className="h-3 w-3 rounded-full bg-chart-3"></span>
+              <span className="h-3 w-3 rounded-full bg-[#C3B5DB]"></span>
               <span className="text-muted-foreground">Prospective clients</span>
             </div>
           </div>
@@ -106,7 +106,7 @@ export function ClientOverviewChart() {
               tickFormatter={(value) => value.slice(0, 3)}
             />
             <ChartTooltip content={<ChartTooltipContent hideLabel />} />
-            <ChartLegend content={<ChartLegendContent />} />
+            {/* <ChartLegend content={<ChartLegendContent />} /> */}
             <Bar
               dataKey="total"
               stackId="a"
