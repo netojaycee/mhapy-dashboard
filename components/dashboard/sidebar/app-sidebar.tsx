@@ -27,8 +27,8 @@ const data = {
       icon: "mage:dashboard",
     },
     {
-      name: "Therapist",
-      url: "/dashboard/therapist",
+      name: "Therapists",
+      url: "/dashboard/therapists",
       icon: "mingcute:user-4-line",
     },
     {

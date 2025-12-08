@@ -55,6 +55,8 @@ export function CustomTabs({
     return savedTab && tabs.some((t) => t.id === savedTab) ? savedTab : defaultTab
   })
 
+
+  console.log(tabs.length)
   // Handle tab change
   const handleTabChange = (newTabId: string) => {
     setActiveTab(newTabId)
