@@ -22,7 +22,7 @@ export default function PortalTab() {
 
         <StatsCard
           icon="mdi:account-multiple"
-          title="Active clients"
+          title="Active clients" 
           value={223}
           trend="negative"
           trendValue="0.32"
@@ -52,7 +52,7 @@ export default function PortalTab() {
           title="Therapist's schedule"
           icon="mdi:calendar-outline"
           stats={therapistSchedule.stats}
-          items={therapistSchedule.items.slice(0,3)}
+          items={therapistSchedule.items.slice(0, 3)}
         />
 
         <ClientListCard
