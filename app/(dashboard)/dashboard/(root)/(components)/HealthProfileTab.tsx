@@ -12,6 +12,7 @@ import { SleepQualityChart } from "./charts/SleepQualityChart";
 export default function HealthProfileTab() {
   const { prospectiveClients, appointments, therapistSchedule } = dashboardData;
   return (
+    
     <div className="space-y-2">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
         <StatsCard
